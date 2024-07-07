@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url('../pictures/backgroundAllGame.jpg');
+    background-size: cover;
+}
+
+canvas {
+    background: rgba(0, 0, 0, 0.623);
+    background-size: cover;
+    display: block;
+    margin: auto;
+}
+
+#usersignupName {
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#heart {
+    margin-left: 407px;
+    display: none;
+}
+
+#winOrFailed {
+    background-color: rgba(0, 0, 0, 0.74);
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    margin-top: 23vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#winOrFailedText {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 150px;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+
+#yourScore {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+button {
+    width: 20vw;
+    height: 50px;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: #4f728a;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+button:hover{
+    background-color: rgb(31, 4, 94);
+    color: white;
+}
+
+#horaot{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 250px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.521);
+    position: absolute;
+    margin-top: 10vh;
+    margin-right: 70vw;
+    text-align: center;
+    display: none;
+    padding: 0 27px 0 27px;
+}
+
+#instructionsButton{
+    background-image: url('../pictures/pauseSmall.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12.5px 20px 12.5px 40px;
+    border: black 1px solid;
+    position: absolute;
+    margin-top: -45vh;
+    margin-right: 70vw;
+}
+#hearts{
+    font-size: 30px;
+}

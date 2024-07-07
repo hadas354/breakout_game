@@ -1,0 +1,115 @@
+body {
+    color: #16262e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#userName {
+    text-align: center;
+}
+
+#allPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffffbb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+}
+
+.tab-group {
+    width: 30%;
+    border: 1px #2e4756 solid;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h3 {
+    /* height: 100%; */
+    color: #9fa2b2;
+    width: 100%;
+    margin: 0;
+    padding: 15px 0 10px 0;
+}
+
+
+input[type=email] {
+    outline: none;
+    border: 1px #2e4756 solid;
+    background-color: #c2cfdb;
+    background-image: url('../pictures/mailPicture.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12.5px 20px 12.5px 40px;
+}
+
+input[type=text] {
+    outline: none;
+    border: 1px #2e4756 solid;
+    background-color: #c2cfdb;
+    background-image: url('../pictures/namePicture.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12.5px 20px 12.5px 40px;
+}
+
+input[type=password] {
+    outline: none;
+    border: 1px #2e4756 solid;
+    background-color: #c2cfdb;
+    background-image: url('../pictures/passwordPicture.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12.5px 20px 12.5px 40px;
+}
+
+input[type=button] {
+    background-color: #131d5a;
+    border: 1.5px #9fa2b2 solid;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 8vh;
+    color: #c2cfdb;
+}
+
+input[type=button]:hover {
+    box-shadow: 4px 4px 6px 0 #2e4756;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus {
+    border: solid 1px #16262e;
+    border-style: solid;
+    box-shadow: 1px 1px 2px #16262e83,
+        2px 2px 4px #16262e83,
+        4px 4px 8px #16262e83,
+        8px 8px 16px #16262e83;
+}
+
+input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 10%;
+    width: 90%;
+}
+
+#link {
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+#link:hover {
+    font-weight: bold;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/homePage.css">
+    <link rel="stylesheet" href="../css/signUp.css">
+    <link rel="icon" type="image/png" href="../pictures/littleIcon.png">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <h1 id="pageTitle">GAMES</h1>
+    <p id="helloUser">hello</p>
+    <div id="allGame">
+        <a href="./oops.html"><img src="../pictures/mario.PNG" alt="mario game" class="game"></a>
+        <a href="./oops.html"><img src="../pictures/chess.PNG" alt="chess game" class="game"></a>
+        <a href="./oops.html"><img src="../pictures/tetris.PNG" alt="tetris game" class="game"></a>
+        <a href="./game.html"><img src="../pictures/breakout.PNG" alt="breakout game" class="game ourGame"></a>
+    </div>
+
+    <div id="allPage">
+        <nav class="tab-group">
+            <h3 class="tab signUp" onclick="thePageToShow('signUp')">Sign Up</h3>
+            <h3 class="tab login" onclick="thePageToShow('login')">Log In</h3>
+        </nav><br>
+        <div id="signUp">
+            <h1>Sign Up for Free</h1><br>
+            <p id="massage1"> </p>
+            <form action="#">
+                <input type="text" id="signupName" name="signupName" placeholder="choose an user name"><br><br>
+                <input type="email" name="signupEmail" id="signupEmail" placeholder="Your e-mail"><br><br>
+                <input type="password" name="signupPassword" id="signupPassword" placeholder="Choose a password"><br>
+                <br>
+                <input type="button" value="Sign Up" onclick="getTheName()" id="button"><br><br>
+                <p>Already have an account? <span onclick="thePageToShow('login')" id="link">Log In</span></p>
+            </form>
+        </div>
+        <div id="login">
+            <h1>Welcome Back!</h1><br>
+            <p id="massage2"> </p>
+            <form action="#">
+                <input type="text" id="loginName" name="loginName" placeholder="Enter your user name"><br><br>
+                <input type="password" name="loginPassword" id="loginPassword" placeholder="Enter your password"><br>
+                <br>
+                <input type="button" value="Log In" onclick="checkPass()" id="button"><br><br>
+                <p>Don't have an account? <span onclick="thePageToShow('signUp')" id="link">Create Account</span></p>
+            </form>
+        </div>
+    </div>
+    <script src="../javascript/signUp.js"></script>
+    <script src="../javascript/homePage.js"></script>
+</body>
+
+</html>

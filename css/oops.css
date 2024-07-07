@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    background-size: cover;
+}
+img{
+    margin-top: 20px;
+    opacity: 0.7;
+    margin-top: -30px;
+}
+h1{
+    font-size: 50px;
+    position: absolute;
+    z-index: 100;
+    text-align: center;
+    color: rgb(22, 12, 114);
+}

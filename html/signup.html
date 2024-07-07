@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/signUp.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="allPage">
+        <nav class="tab-group">
+            <h3 class="tab signUp" onclick="thePageToShow('signUp')">Sign Up</h3>
+            <h3 class="tab login" onclick="thePageToShow('login')">Log In</h3>
+        </nav>
+        <div id="signUp">
+            <h1>Sign Up for Free</h1>
+            <p id="massage1"> </p>
+            <form action="#">
+                <input type="text" id="signupName" name="signupName" placeholder="choose an user name"><br><br>
+                <input type="email" name="signupEmail" id="signupEmail" placeholder="Your e-mail"><br><br>
+                <input type="password" name="signupPassword" id="signupPassword" placeholder="Choose a password"><br>
+                <br>
+                <input type="button" value="click" onclick="getTheName()" id="button">
+                <p>Already have an account? <span onclick="thePageToShow('login')" id="link">Log In</span></p>
+            </form>
+        </div>
+        <div id="login">
+            <h1>Welcome Back!</h1>
+            <p id="massage2"> </p>
+            <form action="#">
+                <input type="text" id="loginName" name="loginName" placeholder="Enter your user name"><br><br>
+                <input type="password" name="loginPassword" id="loginPassword" placeholder="Enter your password"><br>
+                <br>
+                <input type="button" value="click" onclick="checkPass()" id="button">
+                <p>Don't have an account? <span onclick="thePageToShow('signUp')" id="link">Create Account</span></p>
+            </form>
+        </div>
+    </div>
+    <script src="../javascript/signUp.js"></script>
+</body>
+
+</html>

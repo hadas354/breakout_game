@@ -1,0 +1,63 @@
+body {
+    background-image: url("../pictures/galaxy.jpg");
+    background-size: cover;
+    padding: 0;
+}
+
+#background {
+    margin: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -100;
+}
+
+#pageTitle {
+    text-align: center;
+    font-family: 'Stencil', cursive;
+    color: #e699ff;
+    font-size: 120px;
+    margin-bottom: 10px;
+}
+
+#pageTitle {
+    font-size: 120px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b208d4, 0 0 40px #b208d4, 0 0 50px #b208d4, 0 0 60px #b208d4, 0 0 70px #b208d4;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #de36ff, 0 0 40px #de36ff, 0 0 50px #de36ff, 0 0 60px #de36ff, 0 0 70px #de36ff, 0 0 80px #de36ff;
+    }
+}
+
+#allGame {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0px 100px 0px 100px; */
+    z-index: 50;
+}
+
+.game {
+    height: 15vw;
+    width: 15vw;
+    margin: 15px;
+}
+#helloUser{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: #0000007a;
+    width: 100vw;
+    text-align: center;
+}
+
+.ourGame{
+    box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b208d4, 0 0 40px #b208d4, 0 0 50px #b208d4, 0 0 60px #b208d4, 0 0 70px #b208d4;
+}
