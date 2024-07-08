@@ -33,10 +33,6 @@ Welcome to the Breakout Game, a classic arcade-style game built with HTML5 Canva
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - The game logic is inspired by the classic Breakout game.
